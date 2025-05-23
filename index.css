@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #191919;
+  justify-content: space-between;
+}
+
+.texto {
+  text-align: center;
+}
+
+.imagens {
+  text-align: right;
+}
+
+header h1 {
+  color: antiquewhite;
+  font-size: bold;
+}
+
+header h4 {
+  color: orangered;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 280px 280px;
+  gap: 60px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+button {
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  color: black;
+  background-color: antiquewhite;
+}
